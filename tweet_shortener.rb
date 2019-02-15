@@ -1,4 +1,4 @@
 def dictionary
   substitute = {
-    
+    "Hello" => ""
   }
