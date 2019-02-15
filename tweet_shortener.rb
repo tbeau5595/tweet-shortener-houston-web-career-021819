@@ -27,4 +27,5 @@ end
 
 def bulk_tweet_shortener(array)
   array.index_with_each do |tweet, index|
-    tweet_list = tweet
+    tweet_list = tweet.split(" ")
+    
