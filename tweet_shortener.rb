@@ -24,3 +24,4 @@ def word_substituter(phrase)
   end
   words.join(" ")
 end
+
