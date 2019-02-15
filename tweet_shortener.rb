@@ -47,3 +47,5 @@ def selective_tweet_shortener(phrase)
     puts phrase
   end
 end
+
+def
