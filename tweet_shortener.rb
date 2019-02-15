@@ -31,4 +31,4 @@ def bulk_tweet_shortener(array)
     tweet_list.each_with_index do |word, index|
       dictionary.keys.each do |x|
         if x == word
-          tweet_list[]
+          tweet_list[index] = 
