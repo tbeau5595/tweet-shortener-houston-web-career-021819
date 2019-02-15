@@ -16,4 +16,4 @@ end
 def word_substituter(phrase)
   words = phrase.split(" ")
   words.each_with_index do |word, index|
-    
+    dictionary.keys
