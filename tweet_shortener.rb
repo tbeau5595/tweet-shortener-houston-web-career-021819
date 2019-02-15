@@ -50,4 +50,5 @@ end
 
 def shortened_tweet_truncator(phrase)
   if phrase.length > 140
-    phrase
+    phrase = word_substituter(phrase)
+    
