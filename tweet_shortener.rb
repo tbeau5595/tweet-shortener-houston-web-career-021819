@@ -18,4 +18,4 @@ def word_substituter(phrase)
   words.each_with_index do |word, index|
     dictionary.keys.each do |x|
       if x == word
-        words.index
+        words[index]
