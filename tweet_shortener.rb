@@ -1,2 +1,4 @@
 def dictionary
-  substitute = []
+  substitute = {
+    
+  }
