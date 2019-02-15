@@ -19,3 +19,8 @@ def word_substituter(phrase)
     dictionary.keys.each do |x|
       if x == word
         words[index] = dictionary[x]
+      end
+    end
+  end
+  words.join(" ")
+end
