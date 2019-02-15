@@ -15,3 +15,4 @@ end
 
 def word_substituter(phrase)
   words = phrase.split(" ")
+  
