@@ -48,4 +48,5 @@ def selective_tweet_shortener(phrase)
   end
 end
 
-def
+def shortened_tweet_truncator(phrase)
+  
