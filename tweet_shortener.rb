@@ -35,4 +35,5 @@ def bulk_tweet_shortener(array)
         end
       end
     end
-    tweet = tweet_list.join
+    tweet = tweet_list.join(" ")
+  end
